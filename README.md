@@ -1,2 +1,2 @@
 # Streetsweeper Battlebot
-Horizontal spinner/disc spinner 3lb battlebot
+Disc spinner 3lb (beetleweight) battlebot
