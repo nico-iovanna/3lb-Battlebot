@@ -27,35 +27,47 @@ I intend to finish building the bot before spring break, and if it's successful,
 
 
 ## 📝 BOM
-| Part Name | Link | Qty | Cost/Unit | Total Cost | Supplier |
-|---|---|---|---|---|---|
-| 2GT 10mm Bore 6mm Width 40T | https://www.aliexpress.us/item/3256809712096251.html | 1 | $8.40 | $8.40 | AliExpress |
-| 2GT 20T 3.17mm Bore | https://www.aliexpress.us/item/3256805823929071.html | 1 | $2.53 | $2.53 | AliExpress |
-| OD 9mm x ID 6mm Aluminum Pipe | https://www.aliexpress.us/item/3256809233870067.html | 1 | $0.99 | $0.99 | AliExpress |
-| 2GT 6mm x 118T Timing Belt | https://www.aliexpress.us/item/3256808692445707.html | 2 | $2.08 | $4.16 | AliExpress |
-| PU Belt 10ft 3mm | https://www.amazon.com/dp/B0D5RGRXGM | 1 | $6.09 | $6.09 | Amazon |
-| uxcell HK0608 Drawn Cup Needle Roller Bearings | https://www.amazon.com/dp/B07GC8WZVV | 1 | $8.39 | $8.39 | Amazon |
-| MECCANIXITY Shoulder Bolt 4mm x 50mm | https://www.amazon.com/dp/B0FDQ57LHD | 1 | $7.49 | $7.49 | Amazon |
-| 4S 900mAh 80C Lipo Battery (2 pack) | https://zencopter.com/products/flywoo-4s-900mah-hv-80c-lipo-battery-xt30-plug-1pc?variant=42551031398535 | 1 | $38.99 | $38.99 | Zencopter |
-| Propdrive v2 2836 | https://hobbyking.com/en_us/propdrive-v2-2836-2700kv-brushless-outrunner-motor.html | 1 | $23.27 | $23.27 | HobbyKing |
-| Pololu Universal Hub 2pck | https://www.pololu.com/product/1083 | 1 | $12.95 | $12.95 | Pololu |
-| Repeat Long Drive Axles | https://itgresa.com/product/rr-drive-axle-bw-long | 2 | $6.00 | $12.00 | ItGresa |
-| Needle Roller Bearing 1/4" 7/16" OD (Drive) | https://itgresa.com/product/fingertech-needle-bearings | 2 | $6.48 | $12.96 | ItGresa |
-| Aria 70A ESC | https://itgresa.com/product/aria-70a-blheli-brushless-speed-controller | 1 | $38.00 | $38.00 | ItGresa |
-| Weapon | — (SendCutSend) | 2 | $12.53 | $25.06 | SendCutSend |
-| Wedge | — (SendCutSend) | 1 | $16.64 | $16.64 | SendCutSend |
-| White UHMW Sheet Stock 12" x 12" x 0.375" | https://www.zoro.com/zoro-select-white-uhmw-sheet | 1 | $18.45 | $18.45 | Zoro |
-| Hex socket head cap screw M3x0.50 x 6 | https://boltdepot.com/Product-Details?product=6378 | 12 | $0.05 | $0.60 | Bolt Depot |
-| Hex socket head cap screw M3x0.50 x 8 | https://boltdepot.com/Product-Details?product=6379 | 24 | $0.06 | $1.44 | Bolt Depot |
-| Hex socket head cap screw M4x0.70 x 6 | https://boltdepot.com/Product-Details?product=6391 | 12 | $0.08 | $0.96 | Bolt Depot |
-| Socket button head screw M4x0.7 x 6 | https://boltdepot.com/Product-Details?product=6620 | 12 | $0.11 | $1.32 | Bolt Depot |
-| Socket button head screw M4x0.7 x 12 | https://boltdepot.com/Product-Details?product=6624 | 30 | $0.12 | $3.60 | Bolt Depot |
-| Socket button head screw M5x0.8 x 12 | https://boltdepot.com/Product-Details?product=6633 | 6 | $0.17 | $1.02 | Bolt Depot |
-| Socket button head screw M5x0.8 x 16 | https://boltdepot.com/Product-Details?product=6409 | 3 | $0.15 | $0.45 | Bolt Depot |
-| Socket head cap screw #4-40 x 0.625 | https://boltdepot.com | 24 | $0.07 | $1.68 | Bolt Depot |
-| Socket head cap screw #8-32 x 0.5 | https://boltdepot.com/Product-Details?product=4852 | 24 | $0.09 | $2.16 | Bolt Depot |
-| Hex nut M4 x 0.7 Nylon | https://boltdepot.com/Product-Details?product=4793 | 36 | $0.08 | $2.88 | Bolt Depot |
-| Hex nut M5 x 0.8 Nylon | https://boltdepot.com/Product-Details?product=4794 | 10 | $0.09 | $0.90 | Bolt Depot |
-| M3 Lock Nuts | https://boltdepot.com/Product-Details?product=4792 | 4 | $0.07 | $0.28 | Bolt Depot |
-| Hex nylon insert lock nuts #8-32 | https://boltdepot.com/Product-Details?product=2551 | 6 | $0.09 | $0.54 | Bolt Depot |
-| 6mm x 50mm Shoulder Bolt M5 Thread | https://boltdepot.com/Product-Details?product=20407 | 2 | $0.62 | $1.24 | Bolt Depot |
+🔋 Power System 
+| Part                     | Description                           | Vendor            | Qty | Unit Price | Total  |
+| ------------------------ | ------------------------------------- | ----------------- | --- | ---------- | ------ |
+| Battery                  | Tattu 14.8V 4S 75C 850mAh LiPo (XT30) | Amazon            | 1   | $20.59     | $20.59 |
+| Power Distribution Board | Long All-In-One PD Board V2.1         | Just Cuz Robotics | 1   | $10.00     | $10.00 |
+
+⚙️ Weapon System
+| Part                  | Description                                  | Vendor     | Qty | Unit Price | Total  |
+| --------------------- | -------------------------------------------- | ---------- | --- | ---------- | ------ |
+| Weapon Motor          | PROPDRIVE v2 3536 1800KV Brushless Outrunner | HobbyKing  | 1   | $29.86     | $29.86 |
+| Weapon ESC            | AM32 65A 32-bit Brushless ESC                | ITGRESA    | 1   | $35.99     | $35.99 |
+| Timing Pulley Set     | 2GT Pulley Set (20T + 60T, 6mm belt)         | AliExpress | 1   | $3.89      | $3.89  |
+| Needle Roller Bearing | HK0810 (8×12×10mm)                           | AliExpress | 1   | $4.23      | $4.23  |
+| Shoulder Bolt         | M8 Shoulder Screw, 12.9 Grade Steel          | AliExpress | 1   | $2.57      | $2.57  |
+| Washer (Standard)     | M8x16x1 Stainless Steel                      | AliExpress | 1   | $1.42      | $1.42  |
+| Washer (Large)        | M10x20x1.2 Stainless Steel                   | AliExpress | 1   | $1.45      | $1.45  |
+| Spacer                | OD10 × M8 × 4mm Stainless Standoff           | AliExpress | 1   | $5.39      | $5.39  |
+
+🚗 Drive System
+| Part         | Description                        | Vendor  | Qty | Unit Price | Total  |
+| ------------ | ---------------------------------- | ------- | --- | ---------- | ------ |
+| Drive Motors | Dartbox V2 Gecko Gearmotors (22mm) | ITGRESA | 2   | $32.00     | $64.00 |
+| Drive ESC    | WEKA Dual Brushed 2×20A ESC        | ITGRESA | 1   | $40.00     | $40.00 |
+
+📡 Radio Control
+| Part        | Description                     | Vendor      | Qty | Unit Price | Total  |
+| ----------- | ------------------------------- | ----------- | --- | ---------- | ------ |
+| Transmitter | RadioMaster Pocket (M2) ELRS    | RadioMaster | 1   | $64.99     | $64.99 |
+| Receiver    | ER3C-i 2.4GHz ELRS PWM Receiver | RadioMaster | 1   | $16.99     | $16.99 |
+
+🔩 Fasteners & Hardware
+| Part                | Description                | Vendor     | Qty | Unit Price | Total |
+| ------------------- | -------------------------- | ---------- | --- | ---------- | ----- |
+| M3 Heat Set Inserts | M3 × D5 × L4 Brass Inserts | Amazon     | 1   | $9.99      | $9.99 |
+| M3×6mm Bolts        | Stainless Button Head      | Bolt Depot | 12  | $0.07      | $0.84 |
+| M3×8mm Bolts        | Stainless Button Head      | Bolt Depot | 17  | $0.07      | $1.19 |
+| M3×12mm Bolts       | Stainless Button Head      | Bolt Depot | 22  | $0.09      | $1.98 |
+| M3×16mm Bolts       | Stainless Button Head      | Bolt Depot | 2   | $0.11      | $0.22 |
+| M4×8mm Bolts        | Stainless Button Head      | Bolt Depot | 2   | $0.12      | $0.24 |
+| M3 Nuts             | Stainless Steel            | Bolt Depot | 27  | $0.07      | $1.89 |
+| M4 Nuts             | Stainless Steel            | Bolt Depot | 2   | $0.07      | $0.14 |
+| M6 Lock Nut         | Nylon Insert Lock Nut      | Bolt Depot | 1   | $0.11      | $0.11 |
+
+💸Total Cost: $317.97
